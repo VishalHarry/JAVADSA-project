@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65ccc1c6-5bc7-41b2-acb8-1f442bbfc62c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/maxNNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searchRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twoDarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project5.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/revision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +25,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2jmRI8AvjjvcUbslMRqqSmx1Xnj" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,6 +41,9 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.maxNNum.executor": "Run",
+    "Application.question2.executor": "Run",
+    "Application.questions.executor": "Run",
+    "Application.revision.executor": "Run",
     "Application.searchRange.executor": "Run",
     "Application.stings.executor": "Run",
     "Application.twoDarray.executor": "Run",
@@ -53,14 +53,7 @@
     "onboarding.tips.debug.path": "D:/java code/project5/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.twoDarray">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="project5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.question2">
     <configuration name="maxNNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="maxNNum" />
       <module name="project5" />
@@ -68,15 +61,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searchRange" />
+    <configuration name="question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question2" />
       <module name="project5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stings" />
+    <configuration name="questions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions" />
+      <module name="project5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="revision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="revision" />
       <module name="project5" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.question2" />
+        <item itemvalue="Application.questions" />
+        <item itemvalue="Application.revision" />
         <item itemvalue="Application.twoDarray" />
         <item itemvalue="Application.maxNNum" />
-        <item itemvalue="Application.searchRange" />
-        <item itemvalue="Application.stings" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
