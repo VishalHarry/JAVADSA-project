@@ -10,7 +10,7 @@ public class question2 {
 
     }
     static int manWealth(int[][] arr){
-        int max=Integer.MIN_VALUE;
+        int max=Integer.MAX_VALUE;
         for(int p=0;p<arr.length;p++){
             int sum =0;
             for(int a=0;a<arr[p].length;a++){

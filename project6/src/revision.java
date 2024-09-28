@@ -2,24 +2,21 @@ import java.util.Arrays;
 
 class revision{
     public static void main(String[] args) {
-        int[][] arr={
-                {1,2,3,4,5},
-                {5,6,7,8},
-                {12,23,34,45}
+        int[] arr={1,2,3,4,5,6,7,8,9};
+        System.out.println(Arrays.toString(arr));
+        int[] ans=persum(arr);
+        System.out.println(Arrays.toString(arr));
 
-        };
-        int target=45;
-        int[] ans= search(arr, target);
-        System.out.println(Arrays.toString(ans));
+
     }
-    static int[] search(int[][] arr, int target){
-        for(int i=0;i<arr.length;i++){
-            for(int j=0;j<arr[i].length;j++){
-                if(target==arr[i][j]){
-                    return new int[]{i,j};
-                }
-            }
+    static int[] persum(int[] arr){
+
+        for(int i=1;i<arr.length;i++){
+            arr[i]=arr[i-1]+arr[i];
+
         }
-        return null;
+        return arr;
     }
-}
+
+    }
+
